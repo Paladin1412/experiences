@@ -31,4 +31,18 @@ getRelativePosition = function(evt){
     	mozilla: (/mozilla/.test(userAgent)) && (!/(compatible|webkit)/.test(userAgent))
     };   
 
+   $.fn.is_on_screen = function(originY){
+        var win = el;
+        var viewport = {
+            top : originY
+        };
 
+        viewport.bottom = viewport.top + $(window).height() ;
+        
+        var bounds = this.offset();
+        
+        
+        bounds.top = this.offset().top;
+        bounds.bottom = this.offset().top + this.height();
+        return (!(viewport.bottom - settings.offsetBottom < bounds.top || viewport.top - settings.offsetTop > bounds.bottom ));
+      };

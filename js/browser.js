@@ -102,3 +102,28 @@
         bit: bit
     };
 }(this));
+
+
+
+/*
+     ios http://www.webapps-online.com/online-tools/user-agent-strings/dv/operatingsystem51849/ios
+     android http://www.webapps-online.com/online-tools/user-agent-strings/dv/browser51885/android-browser
+    */
+    var webkitversion=0;
+    var usetransform=false;
+    try {
+        if (/webkit\/(\d+\.?\d*)/i.test(navigator.userAgent)) {
+            webkitversion = +RegExp.$1;
+        }
+    }
+    catch (e) {
+    }
+    /*
+    android-browser 2.3-533.1 4.0-534.30
+    ios ios7-537 ios6-536
+    */
+    if ((/android/i.test(navigator.userAgent) && webkitversion > 534)
+        || (/iphone/i.test(navigator.userAgent) && webkitversion > 536)
+        ) {
+        usetransform=true;
+    }

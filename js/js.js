@@ -46,3 +46,7 @@ getRelativePosition = function(evt){
         bounds.bottom = this.offset().top + this.height();
         return (!(viewport.bottom - settings.offsetBottom < bounds.top || viewport.top - settings.offsetTop > bounds.bottom ));
       };
+
+//#######################
+// This should find all Android browsers lower than build 535.19 (both stock browser and webview)
+	me.isBadAndroid = /Android /.test(window.navigator.appVersion) && !(/Chrome\/\d/.test(window.navigator.appVersion));

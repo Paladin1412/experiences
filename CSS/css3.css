@@ -37,10 +37,14 @@ input[type=password] {
     -webkit-user-select: none;
     -webkit-user-drag: none;
     -webkit-user-modify: read-write-plaintext-only;
+    // restore the tanxing touch
+    -webkit-overflow-scrolling: touch;
+    // let font look beauty
+    -webkit-font-smoothing: antialiased;
 }
 
 .threeD {
-    /*解决一些XX问题*/
+// 3d bugs fixed methods
     -webkit-transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
 }

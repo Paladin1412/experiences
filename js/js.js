@@ -50,3 +50,8 @@ getRelativePosition = function(evt){
 //#######################
 // This should find all Android browsers lower than build 535.19 (both stock browser and webview)
 	me.isBadAndroid = /Android /.test(window.navigator.appVersion) && !(/Chrome\/\d/.test(window.navigator.appVersion));
+	
+//#######################
+	{}.toString.call(obj) == "[object " + type + "]"
+	// above,so why not Object.prototype.toString ..??
+	

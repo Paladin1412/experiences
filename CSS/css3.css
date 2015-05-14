@@ -1,0 +1,77 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25)
+, only screen and (min-resolution: 120dpi)
+, only screen and (min-resolution: 1.25dppx) {
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+
+}
+
+.demo {
+    background-image: -webkit-radial-gradient(#134b70, #1a315f);
+    background-image: radial-gradient(#134b70, #1a315f);
+    background: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.7));
+    background: -webkit-gradient(linear,top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0.7)));
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.7));
+    background: -o-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.7));
+
+    font-family: Helvetica, Microsoft yahei, Arial;
+}
+
+.DEMOtransition{
+    -webkit-transition: opacity 400 m transition : opacity 400 ms;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+textarea, input {
+    -webkit-appearance: none;
+}
+
+input[type=password] {
+    -webkit-text-security: disc;
+}
+
+.useful {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-modify: read-write-plaintext-only;
+}
+
+.threeD {
+    /*解决一些XX问题*/
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+}
+
+.btn-action {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+
+    -webkit-animation-duration: .6s;
+    animation-duration: .6s;
+
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+
+@-webkit-keyframes rubberBand {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+    }
+}

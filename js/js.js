@@ -108,3 +108,17 @@ function request(url, callback, charset, crossorigin) {
 
       callback(error)
     }
+#########################
+// get almost percenter of the cavas.
+var getTransparentPercent=function (ctx, width, height) {
+        var imgData = ctx.getImageData(0, 0, width, height),
+            pixles = imgData.data,
+            transPixs = [];
+        for (var i = 0, j = pixles.length; i < j; i += 4) {
+            var a = pixles[i + 3];
+            if (a < 128) {
+                transPixs.push(i);
+            }
+        }
+        return (transPixs.length / (pixles.length / 4) * 100).toFixed(2);
+    },

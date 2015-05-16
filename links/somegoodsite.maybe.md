@@ -3,6 +3,9 @@
 开源中国 - 找到您想要的开源项目，分享和交流
 http://www.oschina.net/
 
+CSDN.NET - 全球最大中文IT社区，为IT专业技术人员提供最全面的信息传播和服务平台
+http://www.csdn.net/
+
 博客园 - 开发者的网上家园
 http://www.cnblogs.com/
 
@@ -30,6 +33,20 @@ https://www.ibm.com/developerworks/
 Mozilla Developer Network
 https://developer.mozilla.org/en-US/#
 
+http://stackoverflow.com/
 
-#个人
+#个人博客
 http://www.chouyu.com.cn/
+
+#产品
+
+36氪 | 关注互联网创业
+http://36kr.com/
+创业邦  -  全球视野的创业信息和专业服务平台
+http://www.cyzone.cn/
+
+...too much
+
+
+#垂直
+

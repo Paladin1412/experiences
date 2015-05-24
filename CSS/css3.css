@@ -42,6 +42,9 @@ input[type=password] {
     // let font look beauty
     -webkit-font-smoothing: antialiased;
     background-size: cover;
+    -webkit-touch-callout: none;
+    -webkit-touch-action: manipulation;
+    touch-action: manipulation;
 }
 
 .threeD {

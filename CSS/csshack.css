@@ -1,0 +1,23 @@
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  /* 在火狐下的input或者button默认显示并没有达到绝对的垂直居中，文字整体居中偏下的位置，而且当点击按钮之后，按钮上会出现一圈虚线 */
+  padding: 0;
+  border: 0;
+}
+
+.demo{
+  background:url("/index/img/2013/video/bg_video_mini.png") no-repeat left bottom;
+  _background:none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.youku.com/index/img/2013/video/bg_video_mini.png");
+}
+
+.demo2 {
+  float: left;
+  _margin-right:-3px;/* IE6 3像素bug */
+}
+
+.demo {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}

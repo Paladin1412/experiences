@@ -2,6 +2,8 @@ Object.defineProperty
 
 https://msdn.microsoft.com/zh-cn/library/dd548687
 
+http://dojotoolkit.org/reference-guide/1.10/dojo/Stateful.html
+
 http://www.2cto.com/kf/201410/346904.html
 
 Javascript 严格模式详解

@@ -11,6 +11,9 @@
 
 [baidu yinpin](http://db-news-fe2.vm.baidu.com:8098/webapp-common/webapp-common.html)
 
+###面试是对知识能力的量化
+[如何面试一名前端开发工程师？](http://www.html-js.com/article/2961)
+
 ### 百度开发
 #### 百系统
 [iCafe+项目管理统一平台](http://icafe.baidu.com/index/#desktop)

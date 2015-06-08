@@ -27,6 +27,25 @@
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
+.button {
+  -webkit-border-radius: .2125rem;
+  -khtml-border-radius: .2125rem;
+  -moz-border-radius: .2125rem;
+  -ms-border-radius: .2125rem;
+  -o-border-radius: .2125rem;
+  border-radius: .2125rem;
+  -webkit-box-shadow: rgba(0,0,0,0.75) 0 .0625rem .3125rem;
+  box-shadow: rgba(0,0,0,0.75) 0 .0625rem .3125rem;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#f6e051),to(#f9c94a));
+  background-image: -moz-linear-gradient(top,#f6e051,#f9c94a);
+  background-image: -o-linear-gradient(top,#f6e051,#f9c94a);
+  background-image: linear-gradient(top,#f6e051,#f9c94a);
+  background-color: #f6e051;
+  display: inline-block;
+  padding: 13px 26px;
+  text-shadow: 0 1px 0 rgba(251,248,214,0.7);
+  }
+
 .animated3 {
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;

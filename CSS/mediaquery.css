@@ -1,0 +1,20 @@
+/*实际在用的一些例子*/
+
+@media screen and (min-width: 320px) {
+
+}
+
+@media(-webkit-min-device-pixel-ratio:2),(min-resolution: 192dpi) {
+
+
+}
+
+@media only screen and (max-width: 640px) and (orientation:portrait) {
+
+}
+
+
+
+@media(-webkit-min-device-pixel-ratio:2),(min-resolution: 192dpi) {
+
+}

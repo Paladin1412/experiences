@@ -2555,8 +2555,6 @@
 
 [上海外卖网|网上订餐|在线订餐|送餐服务|外送网站-小叶子外卖网](http://www.xpfood.com/)
 
-[山东轻工业学院（长清校区）外卖 附近餐厅_外卖电话_在线订餐_济南外卖_开吃吧订餐网](http://kaichiba.com/area/10271)
-
 [赵记桂林米粉_网上订餐_外卖菜单_美餐网_互联网上最全的外卖信息](http://www.meican.com/restaurant/c8f4d1)
 
 [饿了么-网上订餐-叫外卖上ele.me](http://ele.me/)
@@ -2613,19 +2611,17 @@
 [美餐网 - 附近的外卖详细菜单](http://www.meican.com/)
 
 ### 家乡致富
-[乡村季风_农科频道_山东网络台_齐鲁网](http://v.iqilu.com/nkpd/xcjf/)
+[乡季风](http://v.iqilu.com/nkpd/xcjf/)
 
-[一亩田农业网_专业的农产品信息商务平台](http://www.ymt.com/)
+[一田](http://www.ymt.com/)
 
 [www.51mhl.com](http://www.51mhl.com/)
 
-[村村乐-中国最大的农村网为农民朋友提供农村生活信息及服务](http://www.cuncunle.com/)
+[乐](http://www.cuncunle.com/)
 
-[《致富经》官网](http://cctv.cntv.cn/lm/zhifujing/video/)
+[致经](http://cctv.cntv.cn/lm/zhifujing/video/)
 
-[[农广天地]北方温室台湾青枣栽培技术(2010.12.1)_中国网络电视台](http://sannong.cntv.cn/program/nongguangtd/20101202/104032.shtml)
-
-[乐村淘-中国最大的村镇O2O电商服务平台：农村网购、正品低价，物流直达村镇，是农村电子商务首选平台！](http://www.lecuntao.com/shop/index.php)
+[乐淘](http://www.lecuntao.com/shop/index.php)
 
 [Hands Up 創業智庫](http://handsup-tw.blogspot.com/)
 
@@ -2693,8 +2689,6 @@
 [创业梦想家_我们致力为创业者提供动力_站长之家](http://www.chinaz.com/start/)
 
 [上海外卖网|网上订餐|在线订餐|送餐服务|外送网站-小叶子外卖网](http://www.xpfood.com/)
-
-[山东轻工业学院（长清校区）外卖 附近餐厅_外卖电话_在线订餐_济南外卖_开吃吧订餐网](http://kaichiba.com/area/10271)
 
 [赵记桂林米粉_网上订餐_外卖菜单_美餐网_互联网上最全的外卖信息](http://www.meican.com/restaurant/c8f4d1)
 

@@ -1565,6 +1565,10 @@
 
 [Web Performance Best Practices - Make the Web Faster — Google Developers](https://developers.google.com/speed/docs/best-practices/rules_intro?hl=zh-TW&csw=1)
 
+[7 天打造前端性能监控系统](http://fex.baidu.com/blog/2014/05/build-performance-monitor-in-7-days/)
+
+[Velocity China 2015 演讲嘉宾-WEB届性能优化大师](http://velocity.oreilly.com.cn/2015/index.php?func=speaker)
+
 [前端工程精粹（一）：静态资源版本更新与缓存](http://www.infoq.com/cn/articles/front-end-engineering-and-performance-optimization-part1)
 
 [JavaScript and memory leaks](http://www.javascriptkit.com/javatutors/closuresleak/index.shtml?utm_source=twitterfeed&utm_medium=twitter)

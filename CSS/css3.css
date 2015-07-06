@@ -2,6 +2,10 @@
 .demo {
     background-image: -webkit-radial-gradient(#134b70, #1a315f);
     background-image: radial-gradient(#134b70, #1a315f);
+    
+    background-image: radial-gradient(ellipse at left,rgba(0,0,0,.2) 0,rgba(0,0,0,0) 55%);
+    background-image: -wekbit-radial-gradient(ellipse at left,rgba(0,0,0,.2) 0,rgba(0,0,0,0) 55%);
+      
     background: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.7));
     background: -webkit-gradient(linear,top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0.7)));
     background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.7));

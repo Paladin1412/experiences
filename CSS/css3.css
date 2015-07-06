@@ -23,6 +23,8 @@
 
     font-family: Helvetica, Microsoft yahei, Arial;
     font-family: Helvetica Neue,Helvetica,Arial;
+    /*http://blog.csdn.net/hursing/article/details/9186199*/
+    -webkit-overflow-scrolling: touch;  
 }
 
 .flex{

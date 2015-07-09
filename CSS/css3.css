@@ -18,6 +18,8 @@
     background: -ms-linear-gradient(top,#f39800 0,#ee8100 100%);
     background: linear-gradient(to bottom,#f39800 0,#ee8100 100%);
     
+    -webkit-mask: -webkit-linear-gradient(top,transparent,#000 30%,#000 70%,transparent 100%);
+    
     -webkit-box-shadow: 1px 2px 4px -1px #616161;
     box-shadow: 1px 2px 4px -1px #616161;
 

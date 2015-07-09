@@ -9,6 +9,10 @@
 
 }
 
+@media (-webkit-min-device-pixel-ratio:2),(min-device-pixel-ratio:2) {
+  
+}
+
 @media only screen and (max-width: 640px) and (orientation:portrait) {
 
 }

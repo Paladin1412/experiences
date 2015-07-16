@@ -18,6 +18,33 @@
     background: -ms-linear-gradient(top,#f39800 0,#ee8100 100%);
     background: linear-gradient(to bottom,#f39800 0,#ee8100 100%);
 }
+
+.bk{
+      background: -webkit-gradient(linear,0 100%,0 20%,from(rgba(255,255,255,.1)),to(rgba(255,255,255,0)));
+      background: -moz-linear-gradient(bottom,rgba(255,255,255,.1),rgba(255,255,255,0) 80%);
+      background: -o-linear-gradient(bottom,rgba(255,255,255,.1),rgba(255,255,255,0) 80%);
+      background: linear-gradient(bottom,rgba(255,255,255,.1),rgba(255,255,255,0) ;
+}
+
+.skew{
+      -webkit-transform: skew(35deg) rotateX(30deg)!important;
+      transform: skew(35deg) rotateX(30deg)!important;
+}
+
+.3d{
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    
+    -webkit-perspective-origin: 50% 70%;
+    perspective-origin: 50% 70%;
+    
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+}
+
 .mask{
     -webkit-mask: -webkit-linear-gradient(top,transparent,#000 30%,#000 70%,transparent 100%);
 }

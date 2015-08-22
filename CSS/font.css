@@ -1,0 +1,6 @@
+#index-card [class^=icon-], #index-card [class*=" icon-"], #index-view [class^=icon-], #index-view [class*=" icon-"] {
+  font-family: icons;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: .2px;
+}

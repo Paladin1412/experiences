@@ -67,3 +67,8 @@
     text-align: right;
     background: linear-gradient(to right,rgba(255,255,255,0),white 50%,white);
 }
+
+a:hover {
+        box-shadow: 0 4px 16px #e0e0e0;
+        text-decoration: none
+    }

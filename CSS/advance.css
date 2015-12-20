@@ -1,3 +1,5 @@
+/*from twitter*/
+
 .old-front .loggedout .button.signin {
     -webkit-box-shadow: rgba(0,0,0,.75) 0 0 5px,rgba(255,255,255,.1) 0 1px 0 inset;
     box-shadow: rgba(0,0,0,.75) 0 0 5px,rgba(255,255,255,.1) 0 1px 0 inset;
@@ -9,4 +11,10 @@
     background-image: -webkit-gradient(linear,left top,left bottom,from(#59baff),to(#2477b2));
     background-image: -webkit-linear-gradient(top,#59baff,#2477b2);
     background-image: linear-gradient(to bottom,#59baff,#2477b2)
+}
+
+.timeline-head {
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#4c4c4c),to(#111));
+    background-image: -moz-linear-gradient(top,#4c4c4c,#111);
+    background-image: -ms-linear-gradient(top,#4c4c4c,#111);
 }

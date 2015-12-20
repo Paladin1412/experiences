@@ -1,0 +1,12 @@
+.old-front .loggedout .button.signin {
+    -webkit-box-shadow: rgba(0,0,0,.75) 0 0 5px,rgba(255,255,255,.1) 0 1px 0 inset;
+    box-shadow: rgba(0,0,0,.75) 0 0 5px,rgba(255,255,255,.1) 0 1px 0 inset;
+}
+
+.old-front .loggedout .button.signup {
+    -webkit-box-shadow: rgba(0,0,0,.75) 0 0 5px,rgba(255,255,255,.2) 0 1px 0 inset;
+    box-shadow: rgba(0,0,0,.75) 0 0 5px,rgba(255,255,255,.2) 0 1px 0 inset;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#59baff),to(#2477b2));
+    background-image: -webkit-linear-gradient(top,#59baff,#2477b2);
+    background-image: linear-gradient(to bottom,#59baff,#2477b2)
+}

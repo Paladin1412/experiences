@@ -1,3 +1,8 @@
+/**
+ * ref https://github.com/vvo/in-viewport
+ * 
+ **/
+
 module.exports = inViewport;
 
 var instances = [];

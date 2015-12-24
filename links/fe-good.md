@@ -9,3 +9,6 @@ FEX 学院 https://github.com/fex-team/fex-edu
 https://github.com/maxzhang/maxzhang.github.com/issues?q=is%3Aopen
 <br>
 https://github.com/getify/You-Dont-Know-JS
+
+
+http://blog.andrewray.me/flux-for-stupid-people/

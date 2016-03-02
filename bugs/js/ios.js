@@ -10,3 +10,10 @@ $(window).on("touchmove", function (event_) {
 $(window).bind("touchstart", function (event_) {
     if (event_.cancelable) event_.preventDefault();
 });
+
+// 移动端:active伪类无效的解决办法
+try {
+    document.body.addEventListener('touchstart', function () {
+    });
+} catch (e) {
+}

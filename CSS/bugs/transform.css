@@ -1,0 +1,7 @@
+.a{
+  -webkit-transform: rotate(5deg);
+}
+//CSS3 transform rotate（旋转）锯齿的解决办法 开启硬件渲染模式
+.a{
+  -webkit-transform: rotate(5deg) translateZ(0);
+}

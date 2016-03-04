@@ -1,3 +1,4 @@
+// #the AOP CORE
 /**
  * 模拟java spring before
  * @param func
@@ -28,9 +29,13 @@ Function.prototype.after = function (func) {
         return ret;
     }
 };
-// USE-CASE DEMO
-// Define a use case ,log execute time-log aspect
-var log_time = function (func, func_name) {
+
+
+
+// #USE-CASE DEMO 演示示例
+
+// ##Define a execute-time-log aspect
+var log_time_aspect = function (func, func_name) {
     return func = (function () {
         var d;
         return func.before(function () {
@@ -40,7 +45,25 @@ var log_time = function (func, func_name) {
         })
     })();
 };
-// this is a common function
+// ##Define a stack log aspect
+var log_stack_aspect=function (func, name, message) {
+    var deprecationMessage = 'DEPRECATED METHOD: ' + name + '\n' + message + ' AT \n';
+    return func.before(function(){
+         var e = new Error('get-stack-trace');
+        var stack = e && e.stack ? e.stack.replace(/^[^\(]+?[\n$]/gm, '')
+            .replace(/^\s+at\s+/gm, '')
+            .replace(/^Object.<anonymous>\s*\(/gm, '{anonymous}()@') : 'Unknown Stack Trace';
+
+        var log = window.console && (window.console.warn || window.console.log);
+        if (log) {
+            log.call(window.console, deprecationMessage, stack);
+        }
+        
+    });
+}
+
+
+// ##this is a common function
 var append_doms = function (u) {
     for (var i = 0; i < 1000; i++) {
         var div = document.createElement("div");
@@ -48,7 +71,11 @@ var append_doms = function (u) {
         u ? div.getBoundingClientRect() : null;
     }
 };
-//bind it , so this function can have the time-log aspect
-append_doms = log_time(append_doms, "append_doms");
+
+//##bind it , so this function can have the time-log aspect
+append_doms = log_time_aspect(append_doms, "append_doms");
+//##repeat bind it , so this function can have the error-log aspect
+append_doms = log_stack_aspect(append_doms, "append_doms"," msg ");
+
 // excute it ,then the time log auto cout..
 append_doms();

@@ -1,5 +1,3 @@
-// main idea from http://www.alloyteam.com/2013/08/yong-aop-gai-shan-javascript-dai-ma/
-// 整理 by cuipeng
 /**
  * 模拟java spring before
  * @param func
@@ -38,7 +36,7 @@ var log_time = function (func, func_name) {
         return func.before(function () {
             d = +new Date();
         }).after(function () {
-            console.log("execute " + func_name + " cost " + +new Date - d + " ms ");
+            console.log("execute " + func_name + " cost " + (+new Date - d) + " ms ");
         })
     })();
 };

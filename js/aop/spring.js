@@ -1,3 +1,8 @@
+// i have a js aop requirement and i knew this is language-less ,programe thought is no coutryside.
+// so i reseached this article http://www.alloyteam.com/2013/08/yong-aop-gai-shan-javascript-dai-ma/ 
+// main code from that post
+// 整理 by cuipeng
+
 // #the AOP CORE
 /**
  * 模拟java spring before

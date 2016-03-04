@@ -39,6 +39,8 @@ https://github.com/yelp
 
 https://github.com/adobe/
 
+https://github.com/GoogleChrome
+
 ##国内
 
 https://github.com/ecomfe
@@ -68,6 +70,7 @@ https://github.com/mogujie
 https://github.com/netease
 
 https://github.com/renren
+
 https://github.com/letv
 
 

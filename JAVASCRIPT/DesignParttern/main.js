@@ -1,1 +1,1 @@
-TODO
+https://github.com/tcorral/Design-Patterns-in-Javascript

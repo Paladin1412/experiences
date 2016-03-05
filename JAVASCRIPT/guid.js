@@ -29,3 +29,18 @@ module.exports =function() {
         }
     };
 }()
+
+ /**
+     * 获取一个全局唯一的id。如Stage1，Bitmap2等。
+     * @param {String} prefix 生成id的前缀。
+     * @returns {String} 全局唯一id。
+     */
+var getUid=function(prefix){
+        var id = ++uid;
+        if(prefix){
+            var charCode = prefix.charCodeAt(prefix.length - 1);
+            if (charCode >= 48 && charCode <= 57) prefix += "_"; //0至9之间添加下划线
+            return prefix + id;
+        }
+        return id;
+    }

@@ -1,3 +1,6 @@
+Use MV* can help you so much ,you can search yourself for the benefit ,here only tell you what popular mv* framework ,and the detail need you drive into deep yourself.
+
+
 Predictable state container for JavaScript apps 
 http://redux.js.org
 https://github.com/reactjs/redux

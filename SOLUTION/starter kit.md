@@ -1,4 +1,4 @@
-This contains the very first step when you want do something ,and the very first question 's anser ,what did i should do first.
+This contains the very first step when you want do something ,and the very first question 's answer ,what did i should do firstly before an empty code project.
 
 
 [1]:

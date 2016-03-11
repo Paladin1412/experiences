@@ -1,6 +1,6 @@
 
 // get almost percenter of the cavas.
-var getTransparentPercent = function (ctx, width, height) {
+function getTransparentPercent(ctx, width, height) {
     var imgData = ctx.getImageData(0, 0, width, height),
         pixles = imgData.data,
         transPixs = [];
@@ -13,7 +13,7 @@ var getTransparentPercent = function (ctx, width, height) {
     return (transPixs.length / (pixles.length / 4) * 100).toFixed(2);
 }
 // canvas get the deal position .
-var getRelativePosition = function (evt) {
+function getRelativePosition   (evt) {
     var mouseX, mouseY;
     var e = evt.originalEvent || evt,
         canvas = evt.currentTarget || evt.srcElement,
@@ -33,4 +33,34 @@ var getRelativePosition = function (evt) {
         y: mouseY
     };
 
+}
+
+
+/**
+ * Draw a linear gradient
+ *
+ * @param {CanvasContext} ctx
+ * @param {Number} x1 gradient start-x coordinate
+ * @param {Number} y1 gradient start-y coordinate
+ * @param {Number} x2 gradient end-x coordinate
+ * @param {Number} y2 gradient end-y coordinate
+ * @param {Array} colorStops Array of {(String)color, (Number)position} values
+ * @param {Number} x x-coordinate to begin fill
+ * @param {Number} y y-coordinate to begin fill
+ * @param {Number} width how wide to fill
+ * @param {Number} height how tall to fill
+ */
+function drawGradient(ctx, x1, y1, x2, y2, colorStops, x, y, width, height) {
+  var grad;
+
+  ctx.save();
+  grad = ctx.createLinearGradient(x1, y1, x2, y2);
+
+  colorStops.forEach(function (colorStop) {
+    grad.addColorStop(colorStop.position, colorStop.color);
+  });
+
+  ctx.fillStyle = grad;
+  ctx.fillRect(x, y, width, height);
+  ctx.restore();
 }

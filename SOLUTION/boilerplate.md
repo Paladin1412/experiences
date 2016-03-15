@@ -1,4 +1,5 @@
 This contains the very first step when you want do something ,and the very first question 's answer ,what did i should do firstly before an empty code project.
+It's a solution ,not just a demo case.
 
 
 [1]:

@@ -1,4 +1,4 @@
-function create_widget(name, Component, pluginOption) {
+function create(name, Component, pluginOption) {
     var old = $.fn[name];
     pluginOption = pluginOption || {};
 

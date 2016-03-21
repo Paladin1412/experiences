@@ -1,4 +1,4 @@
-window["checkSingleTap"] = function(x, y) {
+function native(x, y) {
     var target,
         scrolledY = window.scrollY,
         action = "",
@@ -12,5 +12,5 @@ window["checkSingleTap"] = function(x, y) {
 
     target = document.elementFromPoint(x, y);
 
-    targetBehave(target);
+    return (target);
 }
